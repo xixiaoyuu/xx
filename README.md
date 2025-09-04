@@ -91,6 +91,185 @@ DiffusionModel(
    （4）训练输出
 # 五、实验结果
 训练收敛效果 模型经过 50 轮训练，损失持续下降至极低水平，无过拟合现象。
+Using device: cpu
+Sequence vocabulary size: 21
+Loaded TSV with columns: Entry, Protein names, Sequence
+Extracted 20420 raw sequence-description pairs
+Filtered to 5260 valid pairs (length 20~256)
+Applying data augmentation...
+Augmented dataset size: 18936
+
+Text vocabulary size: 5000
+Top 10 words: ['(', ')', 'protein', 'variant', '1', '2', '.', '3', 'subunit', 'ec']
+
+Starting training...
+Epoch 1/50
+Train Loss: 0.5674 | Val Loss: 0.3721
+Saved best model (val loss improved)
+Epoch 2/50
+Train Loss: 0.3799 | Val Loss: 0.3217
+Saved best model (val loss improved)
+Epoch 3/50
+Train Loss: 0.3206 | Val Loss: 0.2737
+Saved best model (val loss improved)
+Epoch 4/50
+Train Loss: 0.2798 | Val Loss: 0.2486
+Saved best model (val loss improved)
+Epoch 5/50
+Train Loss: 0.2481 | Val Loss: 0.2156
+Saved best model (val loss improved)
+Epoch 6/50
+Train Loss: 0.2150 | Val Loss: 0.1833
+Saved best model (val loss improved)
+Epoch 7/50
+Train Loss: 0.1933 | Val Loss: 0.1584
+Saved best model (val loss improved)
+Epoch 8/50
+Train Loss: 0.1714 | Val Loss: 0.1514
+Saved best model (val loss improved)
+Epoch 9/50
+Train Loss: 0.1524 | Val Loss: 0.1464
+Saved best model (val loss improved)
+Epoch 10/50
+Train Loss: 0.1372 | Val Loss: 0.1178
+Saved best model (val loss improved)
+Epoch 11/50
+Train Loss: 0.1245 | Val Loss: 0.1167
+Saved best model (val loss improved)
+Epoch 12/50
+Train Loss: 0.1103 | Val Loss: 0.1005
+Saved best model (val loss improved)
+Epoch 13/50
+Train Loss: 0.0987 | Val Loss: 0.0919
+Saved best model (val loss improved)
+Epoch 14/50
+Train Loss: 0.0901 | Val Loss: 0.0791
+Saved best model (val loss improved)
+Epoch 15/50
+Train Loss: 0.0811 | Val Loss: 0.0748
+Saved best model (val loss improved)
+Epoch 16/50
+Train Loss: 0.0732 | Val Loss: 0.0706
+Saved best model (val loss improved)
+Epoch 17/50
+Train Loss: 0.0654 | Val Loss: 0.0611
+Saved best model (val loss improved)
+Epoch 18/50
+Train Loss: 0.0577 | Val Loss: 0.0524
+Saved best model (val loss improved)
+Epoch 19/50
+Train Loss: 0.0518 | Val Loss: 0.0528
+Epoch 20/50
+Train Loss: 0.0466 | Val Loss: 0.0473
+Saved best model (val loss improved)
+Epoch 21/50
+Train Loss: 0.0409 | Val Loss: 0.0407
+Saved best model (val loss improved)
+Epoch 22/50
+Train Loss: 0.0365 | Val Loss: 0.0360
+Saved best model (val loss improved)
+Epoch 23/50
+Train Loss: 0.0319 | Val Loss: 0.0323
+Saved best model (val loss improved)
+Epoch 24/50
+Train Loss: 0.0279 | Val Loss: 0.0281
+Saved best model (val loss improved)
+Epoch 25/50
+Train Loss: 0.0243 | Val Loss: 0.0248
+Saved best model (val loss improved)
+Epoch 26/50
+Train Loss: 0.0210 | Val Loss: 0.0216
+Saved best model (val loss improved)
+Epoch 27/50
+Train Loss: 0.0182 | Val Loss: 0.0183
+Saved best model (val loss improved)
+Epoch 28/50
+Train Loss: 0.0156 | Val Loss: 0.0157
+Saved best model (val loss improved)
+Epoch 29/50
+Train Loss: 0.0134 | Val Loss: 0.0138
+Saved best model (val loss improved)
+Epoch 30/50
+Train Loss: 0.0113 | Val Loss: 0.0112
+Saved best model (val loss improved)
+Epoch 31/50
+Train Loss: 0.0096 | Val Loss: 0.0092
+Saved best model (val loss improved)
+Epoch 32/50
+Train Loss: 0.0079 | Val Loss: 0.0077
+Saved best model (val loss improved)
+Epoch 33/50
+Train Loss: 0.0066 | Val Loss: 0.0063
+Saved best model (val loss improved)
+Epoch 34/50
+Train Loss: 0.0054 | Val Loss: 0.0051
+Saved best model (val loss improved)
+Epoch 35/50
+Train Loss: 0.0044 | Val Loss: 0.0042
+Saved best model (val loss improved)
+Epoch 36/50
+Train Loss: 0.0036 | Val Loss: 0.0034
+Saved best model (val loss improved)
+Epoch 37/50
+Train Loss: 0.0028 | Val Loss: 0.0027
+Saved best model (val loss improved)
+Epoch 38/50
+Train Loss: 0.0023 | Val Loss: 0.0022
+Saved best model (val loss improved)
+Epoch 39/50
+Train Loss: 0.0018 | Val Loss: 0.0017
+Saved best model (val loss improved)
+Epoch 40/50
+Train Loss: 0.0014 | Val Loss: 0.0013
+Saved best model (val loss improved)
+Epoch 41/50
+Train Loss: 0.0011 | Val Loss: 0.0010
+Saved best model (val loss improved)
+Epoch 42/50
+Train Loss: 0.0008 | Val Loss: 0.0008
+Saved best model (val loss improved)
+Epoch 43/50
+Train Loss: 0.0006 | Val Loss: 0.0006
+Saved best model (val loss improved)
+Epoch 44/50
+Train Loss: 0.0005 | Val Loss: 0.0004
+Saved best model (val loss improved)
+Epoch 45/50
+Train Loss: 0.0004 | Val Loss: 0.0003
+Saved best model (val loss improved)
+Epoch 46/50
+Train Loss: 0.0003 | Val Loss: 0.0002
+Saved best model (val loss improved)
+Epoch 47/50
+Train Loss: 0.0002 | Val Loss: 0.0002
+Saved best model (val loss improved)
+Epoch 48/50
+Train Loss: 0.0002 | Val Loss: 0.0001
+Saved best model (val loss improved)
+Epoch 49/50
+Train Loss: 0.0001 | Val Loss: 0.0001
+Saved best model (val loss improved)
+Epoch 50/50
+Train Loss: 0.0001 | Val Loss: 0.0001
+Saved best model (val loss improved)
+     C:\Users\32816\AppData\Local\Temp\ipykernel_39888\1122325614.py:447: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load("best_protein_model.pth"))
+     
+Model saved to 'protein_diffusion_model_final.pth'
+
+Generating sample sequences...
+
+Description: DNA binding protein involved in transcription
+Generated sequence: QWMHNPMWWAMYCYAIYMWAFRMHWWYHWMDCRFEILVYYNWMHAERHEIWREFNEFRFKPAMFTHANEMEVMERAPYDMMEGYCEGYFRCLQMRWQQLG...
+Sequence length: 237
+
+Description: Enzyme with catalytic activity for hydrolysis
+Generated sequence: ASRSNYIFGEKRSQETDDYNHADHGEEHAMLHYYKSFYKTDNWGMEEWGPPHEMAYDAHLANCWHWWTYFGEIIYEFYAYYLDLQFPQMFWTQNAHMIHR...
+Sequence length: 244
+
+Description: Membrane transport protein for ions
+Generated sequence: KCGPRLEHPSHKCQWWYEEINDCNPCIFHEERPYHMKMMQENYRRFMYVESDSWHQCLFGMGDGNYYFGYYCDSAGVWGEGMRVTRYKFWWRFYGHFRSK...
+Sequence length: 244
 # 六、使用指南
 安装所需Python库
 pip install torch==2.1.0 numpy==1.26.0 pandas==2.1.1 scikit-learn==1.3.0 regex==2023.8.8
