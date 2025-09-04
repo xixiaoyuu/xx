@@ -3,6 +3,7 @@
   文本到蛋白质序列的扩散模型，是一款基于扩散模型（Diffusion Model）与 Transformer 架构的生成式 AI 工具，核心功能是根据蛋白质的文本描述（如功能、结构、来源等），生成符合生物学规律的氨基酸序列。模型将文本语义编码与扩散过程的 “前向加噪 - 反向去噪” 机制结合，通过文本条件约束蛋白质序列生成。
 ## 二、模型结构
   本模型是文本条件约束的轻量化扩散生成模型，以 Transformer 为基础架构，整合文本编码器、时间步嵌入、条件融合模块及 Transformer 解码器，通过在嵌入空间进行扩散，实现 “文本描述→蛋白质序列” 的映射。模型在保证生成质量的同时，兼顾推理效率，核心结构如下：
+<img width="872" height="1652" alt="image" src="https://github.com/user-attachments/assets/a67fff08-63ad-4e3d-a879-d8d2adeae110" />
 
 ## 三、数据集 
 1. 数据集来源与规模 本模型采用UniProt 数据库格式的蛋白质序列 - 文本配对数据，原始数据包含蛋白质的氨基酸序列（Sequence）和功能描述（Protein names）
@@ -34,6 +35,7 @@
    （4）训练输出 
 ## 五、实验结果
 训练收敛效果 模型经过 50 轮训练，损失持续下降至极低水平，无过拟合现象。
+<img width="3104" height="1696" alt="image" src="https://github.com/user-attachments/assets/517ef121-fe55-4a0b-a6fa-79275d200502" />
 
 ```
 Generating sample sequences...
